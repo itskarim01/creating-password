@@ -6,7 +6,7 @@ body{
 
 .form{
     background-color: #444444; 
-    width: 25%;
+    width: fit-content;
     height: 100%;
     padding: 20px;
     border-radius: 14px;
