@@ -13,5 +13,4 @@ function passwordCheck() {
     } else {
         alert('❌ Mismatched Password')
     }
-
 }
