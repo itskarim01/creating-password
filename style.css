@@ -1,0 +1,55 @@
+body{
+    background-color: #222222; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    background-color: #444444; 
+    width: 350px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.form h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.form input{
+    background-color: #505050;
+    color: white;
+    border: 1.3px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 98%;
+    padding: 5px;
+}
+
+.form button{
+    background-color: #1a6ce6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.form button:hover{
+    background-color: white;
+    color: #1a6ce6;
+}
+
+.form button:active{
+    background-color: black;
+    color: #1a6ce6;
+}
+
+#valid{
+    color: #ff6262;
+}
